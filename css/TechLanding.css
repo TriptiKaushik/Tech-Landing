@@ -1,0 +1,56 @@
+.navbar-default .navbar-brand{
+    color: black;
+}
+html{
+    height: 100%;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1527685216219-c7bee79b0089?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=667&amp;q=80%20667w);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
+}
+.center
+{
+    text-align: center;
+    padding-top: 15%;
+}
+h1, p{
+    color: white;
+    
+}
+@media (max-width:768px){
+    h1{
+        background: black;
+        opacity: 0.5;
+    }
+    h2{
+        background: black;
+        opacity: 0.5;
+    }
+}
+@media(min-width:768px){
+    h1{background: grey;
+    opacity: 0.7;}
+    h2{background: grey;
+    opacity: 0.7;}
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+}
+#login .social-button{
+    margin: 12px 0;
+}
+.btn-fb{
+    color: #fff;
+    background-color: #3d599d;
+}
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+}
+.col-md-12{
+    margin: 25px;
+}
